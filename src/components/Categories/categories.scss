@@ -1,0 +1,103 @@
+.categories {
+  position: relative;
+  z-index: 10;
+  &__inner {
+    gap: 30px;
+    ul {
+      gap: 10px;
+      li {
+        text-align: center;
+        flex: 1;
+      }
+    }
+  }
+  &__btn {
+    padding: 12px 20px;
+    background: #f9f9f9;
+    border-radius: 30px;
+    color: #282828;
+    font-size: 15px;
+    font-weight: 700;
+    cursor: pointer;
+    &.act {
+      background-color: #282828;
+      color: #fff;
+    }
+    &:not(.act):hover {
+      background-color: #e4dede;
+    }
+  }
+  &__sort {
+    position: relative;
+    div {
+      gap: 10px;
+      p {
+        padding-bottom: 2px;
+        color: #fe5f1e;
+        border-bottom: 1px dashed #fe5f1e;
+      }
+    }
+    ul {
+      position: absolute;
+      top: 30px;
+      right: 0;
+      padding: 13px 0;
+      background-color: #fff;
+      box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.09);
+      border-radius: 10px;
+      opacity: 0;
+      pointer-events: none;
+      visibility: hidden;
+      .sort_li {
+        padding: 10px 14px;
+        color: #000;
+        font-weight: 600;
+        transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+        cursor: pointer;
+        &.act {
+          background-color: rgba(254, 95, 30, 0.05);
+          color: #fe5f1e;
+        }
+      }
+    }
+  }
+  &__sort-items {
+    position: absolute;
+    top: 30px;
+    right: 0px;
+    padding: 13px 0;
+    background-color: #fff;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.09);
+    border-radius: 10px;
+    transform: translateY(-30px);
+    opacity: 0;
+    pointer-events: none;
+    visibility: hidden;
+    transition: opacity 0.2s ease-in-out, pointer-events 0.3s ease-in-out,
+      visibility 0.3s ease-in-out, transform 0.3s ease-in-out;
+    &.act {
+      opacity: 1;
+      pointer-events: all;
+      visibility: visible;
+      transform: translateY(0);
+    }
+    li {
+      padding: 10px 14px;
+      color: #000;
+      font-weight: 600;
+      transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+      cursor: pointer;
+      &:hover {
+        background-color: rgba(254, 95, 30, 0.05);
+        color: #fe5f1e;
+      }
+    }
+  }
+  &__arrow {
+    transform: rotate(0deg);
+    transition: transform 0.2s ease-in-out;
+    &.act {
+      transform: rotate(180deg);
+    }
+  }
+}

@@ -1,0 +1,11 @@
+export { default as arrow } from './img/arrow-top.svg';
+export { default as cart_a } from './img/cart-a.svg';
+export { default as cart_b } from './img/cart-b.svg';
+export { default as emptyCart } from './img/empty-cart.png';
+export { default as arrowLeft } from './img/grey-arrow-left.svg';
+export { default as pizzaLogo } from './img/pizza-logo.svg';
+export { default as plus } from './img/plus.svg';
+export { default as plusWhite } from './img/plus-white.svg';
+export { default as trash } from './img/trash.svg';
+export { default as smile } from './img/smile.svg';
+export { default as notPizza } from './img/not-pizza.png';

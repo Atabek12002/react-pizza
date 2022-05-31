@@ -1,0 +1,61 @@
+.basket__item {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 15px;
+  justify-content: space-between;
+  padding: 30px 0;
+  border-top: 1px solid #f4f4f4;
+  .basket__inf {
+    display: flex;
+    align-items: center;
+    width: 310px;
+    img {
+      margin-right: 15px;
+    }
+    .dodo_img {
+      animation: dodoimg 1s infinite linear;
+    }
+    @keyframes dodoimg {
+      0% {
+        transform: rotate(0deg);
+      }
+      100% {
+        transform: rotate(360deg);
+      }
+    }
+  }
+  p {
+    color: #b6b6b6;
+  }
+  .card_num {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+  .btn_card {
+    border-radius: 50%;
+    padding: 5px;
+    border: 1px solid #fe5f1e;
+    color: #fe5f1e;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out,
+      transform 0.1s ease-in-out;
+    &:hover {
+      background-color: #fe5f1e;
+      color: #fff;
+    }
+    &:active {
+      transform: scale(0.95);
+    }
+  }
+  .btn_remove {
+    border-radius: 50%;
+    border: 2px solid #d7d7d7;
+    padding: 6px;
+    transition: transform 0.2s ease-out;
+    &:hover {
+      transform: scale(1.2);
+    }
+  }
+}

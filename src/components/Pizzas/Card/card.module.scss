@@ -1,0 +1,46 @@
+.pizza {
+  // width: 280px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  height: 100%;
+  gap: 20px;
+  &__img {
+    margin: 0 auto;
+  }
+  h3 {
+    font-weight: 800;
+  }
+  &__desc {
+    border: 1px solid #fe5f1e;
+    padding: 15px 20px;
+    border-radius: 15px;
+    height: 100%;
+    min-height: 60px;
+    color: #767381;
+  }
+  &__bottom {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    justify-content: space-between;
+    div {
+      padding: 12px 25px;
+      border: 1px solid #fe5f1e;
+      background-color: #fe5f1e;
+      border-radius: 30px;
+      gap: 7px;
+      transition: transform 0.2s ease-in-out;
+      &:active {
+        transform: scale(0.95);
+      }
+      span {
+        font-weight: 700;
+        font-size: 15px;
+        color: #fff;
+      }
+    }
+  }
+}

@@ -1,0 +1,651 @@
+{
+  "pizzas": [
+    {
+      "id": 1,
+      "imageUrl": "https://dodopizza.azureedge.net/static/Img/Products/f035c7f46c0844069722f2bb3ee9f113_584x584.jpeg",
+      "name": "Пепперони Фреш с перцем",
+      "desc": "Ветчина из цыпленка, сладкий перец, моцарелла из натурального молока, томатный соус, итальянские травы, чеснок, сыр чеддер",
+      "sizes": [
+        {
+          "id": 1,
+          "size": 25,
+          "price": 55000,
+          "weight": 330,
+          "type": [
+            {
+              "id": 1,
+              "typeName": "Традиционное",
+              "isShow": true
+            },
+            {
+              "id": 2,
+              "typeName": "Тонкое",
+              "isShow": false
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "size": 30,
+          "price": 69000,
+          "weight": 480,
+          "type": [
+            {
+              "id": 1,
+              "typeName": "Традиционное",
+              "isShow": true
+            },
+            {
+              "id": 2,
+              "typeName": "Тонкое",
+              "isShow": true
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "size": 35,
+          "price": 89000,
+          "weight": 720,
+          "type": [
+            {
+              "id": 1,
+              "typeName": "Традиционное",
+              "isShow": true
+            },
+            {
+              "id": 2,
+              "typeName": "Тонкое",
+              "isShow": true
+            }
+          ]
+        }
+      ],
+      "price": 55000,
+      "category": 0,
+      "rating": 4
+    },
+    {
+      "id": 2,
+      "imageUrl": "https://dodopizza.azureedge.net/static/Img/Products/Pizza/ru-RU/2ffc31bb-132c-4c99-b894-53f7107a1441.jpg",
+      "name": "Сырная",
+      "desc": "Увеличенная порция моцареллы из натурального молока, томаты, итальянские травы, томатный соус",
+      "types": [0],
+      "sizes": [
+        {
+          "id": 1,
+          "size": 25,
+          "price": 49000,
+          "weight": 440,
+          "type": [
+            {
+              "id": 1,
+              "typeName": "Традиционное",
+              "isShow": true
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "size": 30,
+          "price": 69000,
+          "weight": 650,
+          "type": [
+            {
+              "id": 1,
+              "typeName": "Традиционное",
+              "isShow": true
+            },
+            {
+              "id": 2,
+              "typeName": "Тонкое",
+              "isShow": true
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "size": 35,
+          "price": 89000,
+          "weight": 870,
+          "type": [
+            {
+              "id": 1,
+              "typeName": "Традиционное",
+              "isShow": true
+            },
+            {
+              "id": 2,
+              "typeName": "Тонкое",
+              "isShow": true
+            }
+          ]
+        }
+      ],
+      "price": 49000,
+      "category": 1,
+      "rating": 6
+    },
+    {
+      "id": 3,
+      "imageUrl": "https://dodopizza.azureedge.net/static/Img/Products/Pizza/ru-RU/6652fec1-04df-49d8-8744-232f1032c44b.jpg",
+      "name": "Цыпленок барбекю",
+      "desc": "Индейка, шампиньоны, увеличенная порция моцареллы из натурального молока, томатный соус",
+      "types": [0],
+      "sizes": [
+        {
+          "id": 1,
+          "size": 25,
+          "price": 50000,
+          "weight": 460,
+          "type": [
+            {
+              "id": 1,
+              "typeName": "Традиционное",
+              "isShow": true
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "size": 30,
+          "price": 75000,
+          "weight": 670,
+          "type": [
+            {
+              "id": 1,
+              "typeName": "Традиционное",
+              "isShow": true
+            },
+            {
+              "id": 2,
+              "typeName": "Тонкое",
+              "isShow": true
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "size": 35,
+          "price": 89000,
+          "weight": 870,
+          "type": [
+            {
+              "id": 1,
+              "typeName": "Традиционное",
+              "isShow": true
+            },
+            {
+              "id": 2,
+              "typeName": "Тонкое",
+              "isShow": true
+            }
+          ]
+        }
+      ],
+      "price": 50000,
+      "category": 1,
+      "rating": 4
+    },
+    {
+      "id": 4,
+      "imageUrl": "https://dodopizza.azureedge.net/static/Img/Products/Pizza/ru-RU/af553bf5-3887-4501-b88e-8f0f55229429.jpg",
+      "name": "Кисло-сладкий цыпленок",
+      "desc": "Ветчина из цыпленка, ананасы, моцарелла из натурального молока, томатный соус",
+      "types": [1],
+      "sizes": [
+        {
+          "id": 1,
+          "size": 25,
+          "price": 53000,
+          "weight": 480,
+          "type": [
+            {
+              "id": 1,
+              "typeName": "Традиционное",
+              "isShow": true
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "size": 30,
+          "price": 75000,
+          "weight": 710,
+          "type": [
+            {
+              "id": 1,
+              "typeName": "Традиционное",
+              "isShow": true
+            },
+            {
+              "id": 2,
+              "typeName": "Тонкое",
+              "isShow": true
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "size": 35,
+          "price": 89000,
+          "weight": 960,
+          "type": [
+            {
+              "id": 1,
+              "typeName": "Традиционное",
+              "isShow": true
+            },
+            {
+              "id": 2,
+              "typeName": "Тонкое",
+              "isShow": true
+            }
+          ]
+        }
+      ],
+      "price": 53000,
+      "category": 2,
+      "rating": 2
+    },
+    {
+      "id": 5,
+      "imageUrl": "https://dodopizza.azureedge.net/static/Img/Products/Pizza/ru-RU/b750f576-4a83-48e6-a283-5a8efb68c35d.jpg",
+      "name": "Чизбургер-пицца",
+      "desc": "Моцарелла из натурального молока, брынза, шампиньоны, сладкий перец, томаты, томатный соус, базилик, красный лук",
+      "types": [0, 1],
+      "sizes": [
+        {
+          "id": 1,
+          "size": 25,
+          "price": 59000,
+          "weight": 480,
+          "type": [
+            {
+              "id": 1,
+              "typeName": "Традиционное",
+              "isShow": true
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "size": 30,
+          "price": 79000,
+          "weight": 710,
+          "type": [
+            {
+              "id": 1,
+              "typeName": "Традиционное",
+              "isShow": true
+            },
+            {
+              "id": 2,
+              "typeName": "Тонкое",
+              "isShow": true
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "size": 35,
+          "price": 95000,
+          "weight": 960,
+          "type": [
+            {
+              "id": 1,
+              "typeName": "Традиционное",
+              "isShow": true
+            },
+            {
+              "id": 2,
+              "typeName": "Тонкое",
+              "isShow": true
+            }
+          ]
+        }
+      ],
+      "price": 59000,
+      "category": 3,
+      "rating": 8
+    },
+    {
+      "id": 6,
+      "imageUrl": "https://dodopizza-a.akamaihd.net/static/Img/Products/de51de47773843fe95957caab3d7f974_292x292.png",
+      "name": "Крэйзи пепперони",
+      "desc": "Цыплёнок, моцарелла из натурального молока, томатный соус, перец халапеньо, сладкий перец, соус сальса, томаты, красный лук",
+      "types": [0],
+      "sizes": [
+        {
+          "id": 1,
+          "size": 25,
+          "price": 46000,
+          "weight": 450,
+          "type": [
+            {
+              "id": 1,
+              "typeName": "Традиционное",
+              "isShow": true
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "size": 30,
+          "price": 79000,
+          "weight": 660,
+          "type": [
+            {
+              "id": 1,
+              "typeName": "Традиционное",
+              "isShow": true
+            },
+            {
+              "id": 2,
+              "typeName": "Тонкое",
+              "isShow": true
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "size": 35,
+          "price": 95000,
+          "weight": 880,
+          "type": [
+            {
+              "id": 1,
+              "typeName": "Традиционное",
+              "isShow": true
+            },
+            {
+              "id": 2,
+              "typeName": "Тонкое",
+              "isShow": true
+            }
+          ]
+        }
+      ],
+      "price": 46000,
+      "category": 2,
+      "rating": 2
+    },
+    {
+      "id": 7,
+      "imageUrl": "https://dodopizza.azureedge.net/static/Img/Products/Pizza/ru-RU/d2e337e9-e07a-4199-9cc1-501cc44cb8f8.jpg",
+      "name": "Пепперони",
+      "desc": "Митболы из 100% говядины, индейка, пепперони из 100% говядины, моцарелла из натурального молока, томатный соус",
+      "types": [0, 1],
+      "sizes": [
+        {
+          "id": 1,
+          "size": 25,
+          "price": 50000,
+          "weight": 440,
+          "type": [
+            {
+              "id": 1,
+              "typeName": "Традиционное",
+              "isShow": true
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "size": 30,
+          "price": 79000,
+          "weight": 660,
+          "type": [
+            {
+              "id": 1,
+              "typeName": "Традиционное",
+              "isShow": true
+            },
+            {
+              "id": 2,
+              "typeName": "Тонкое",
+              "isShow": true
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "size": 35,
+          "price": 95000,
+          "weight": 910,
+          "type": [
+            {
+              "id": 1,
+              "typeName": "Традиционное",
+              "isShow": true
+            },
+            {
+              "id": 2,
+              "typeName": "Тонкое",
+              "isShow": true
+            }
+          ]
+        }
+      ],
+      "price": 50000,
+      "category": 1,
+      "rating": 9
+    },
+    {
+      "id": 8,
+      "imageUrl": "https://dodopizza.azureedge.net/static/Img/Products/Pizza/ru-RU/d48003cd-902c-420d-9f28-92d9dc5f73b4.jpg",
+      "name": "Маргарита",
+      "desc": "Цыпленок, моцарелла из натурального молока, ветчина из цыпленка, соус барбекю, томатный соус, красный лук",
+      "types": [0, 1],
+      "sizes": [
+        {
+          "id": 1,
+          "size": 25,
+          "price": 65000,
+          "weight": 440,
+          "type": [
+            {
+              "id": 1,
+              "typeName": "Традиционное",
+              "isShow": true
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "size": 30,
+          "price": 89000,
+          "weight": 640,
+          "type": [
+            {
+              "id": 1,
+              "typeName": "Традиционное",
+              "isShow": true
+            },
+            {
+              "id": 2,
+              "typeName": "Тонкое",
+              "isShow": true
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "size": 35,
+          "price": 105000,
+          "weight": 870,
+          "type": [
+            {
+              "id": 1,
+              "typeName": "Традиционное",
+              "isShow": true
+            },
+            {
+              "id": 2,
+              "typeName": "Тонкое",
+              "isShow": true
+            }
+          ]
+        }
+      ],
+      "price": 65000,
+      "category": 4,
+      "rating": 10
+    },
+    {
+      "id": 9,
+      "imageUrl": "https://dodopizza.azureedge.net/static/Img/Products/Pizza/ru-RU/ec29465e-606b-4a04-a03e-da3940d37e0e.jpg",
+      "name": "Четыре сезона",
+      "desc": "Цыпленок, пепперони из 100% говядины, моцарелла из натурального молока, кисло-сладкий соус, томатный соус",
+      "types": [0, 1],
+      "sizes": [
+        {
+          "id": 1,
+          "size": 25,
+          "price": 45000,
+          "weight": 440,
+          "type": [
+            {
+              "id": 1,
+              "typeName": "Традиционное",
+              "isShow": true
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "size": 30,
+          "price": 65000,
+          "weight": 630,
+          "type": [
+            {
+              "id": 1,
+              "typeName": "Традиционное",
+              "isShow": true
+            },
+            {
+              "id": 2,
+              "typeName": "Тонкое",
+              "isShow": true
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "size": 35,
+          "price": 85000,
+          "weight": 880,
+          "type": [
+            {
+              "id": 1,
+              "typeName": "Традиционное",
+              "isShow": true
+            },
+            {
+              "id": 2,
+              "typeName": "Тонкое",
+              "isShow": true
+            }
+          ]
+        }
+      ],
+      "price": 45000,
+      "category": 5,
+      "rating": 10
+    },
+    {
+      "id": 10,
+      "imageUrl": "https://dodopizza.azureedge.net/static/Img/Products/Pizza/ru-RU/30367198-f3bd-44ed-9314-6f717960da07.jpg",
+      "name": "Овощи и грибы 🌱",
+      "desc": "Бекон из говядины, цыпленок, пепперони из 100% говядины, моцарелла из натурального молока, пицца-соус , красный лук",
+      "types": [0, 1],
+      "sizes": [
+        {
+          "id": 1,
+          "size": 25,
+          "price": 51000,
+          "weight": 440,
+          "type": [
+            {
+              "id": 1,
+              "typeName": "Традиционное",
+              "isShow": true
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "size": 30,
+          "price": 69000,
+          "weight": 680,
+          "type": [
+            {
+              "id": 1,
+              "typeName": "Традиционное",
+              "isShow": true
+            },
+            {
+              "id": 2,
+              "typeName": "Тонкое",
+              "isShow": true
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "size": 35,
+          "price": 125000,
+          "weight": 1200,
+          "type": [
+            {
+              "id": 1,
+              "typeName": "Традиционное тесто",
+              "isShow": true
+            },
+            {
+              "id": 2,
+              "typeName": "Тонкое тесто",
+              "isShow": true
+            }
+          ]
+        }
+      ],
+      "price": 51000,
+      "category": 5,
+      "rating": 7
+    }
+  ],
+  "sort": [
+    {
+      "name": "популярности (DESC)",
+      "type": "rating",
+      "order": "desc"
+    },
+    {
+      "name": "популярности (ASC)",
+      "type": "rating",
+      "order": "asc"
+    },
+    {
+      "name": "цене (DESC)",
+      "type": "price",
+      "order": "desc"
+    },
+    {
+      "name": "цене (ASC)",
+      "type": "price",
+      "order": "desc"
+    },
+    {
+      "name": "алфавит (DESC)",
+      "type": "name",
+      "order": "desc"
+    },
+    {
+      "name": "алфавит (ASC)",
+      "type": "name",
+      "order": "ASC"
+    }
+  ],
+  "cart": []
+}

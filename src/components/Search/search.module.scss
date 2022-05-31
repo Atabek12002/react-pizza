@@ -1,0 +1,15 @@
+.search {
+  border: 1px solid #dbdbdb;
+  padding: 10px;
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  .ico {
+    opacity: 0.5;
+    cursor: pointer;
+    font-size: 18px;
+  }
+  input {
+    padding: 0 10px;
+  }
+}

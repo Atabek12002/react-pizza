@@ -1,0 +1,62 @@
+.basket-comp {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 20px;
+  .basket-items {
+    overflow: auto;
+    height: 400px;
+    &::-webkit-scrollbar {
+      width: 5px;
+      background-color: #fff;
+    }
+    &::-webkit-scrollbar-thumb {
+      height: 10px;
+      background-color: #fe5f1e;
+      border-radius: 20px;
+    }
+  }
+  .basket-bill {
+    p {
+      font-weight: 500;
+      font-size: 22px;
+      span {
+        color: #fe5f1e;
+        font-weight: 700;
+      }
+    }
+  }
+  .basket-btns {
+    button {
+      padding: 18px 25px;
+      font-size: 16px;
+      border-radius: 30px;
+      transition: transform 0.2s ease-in-out;
+      &:active {
+        transform: scale(0.95);
+      }
+    }
+    button:nth-child(1) {
+      color: #cacaca;
+      border: 1px solid #d3d3d3;
+      img {
+        transition: transform 0.3s ease-in-out;
+      }
+      &:hover {
+        img {
+          transform: translateX(-7px);
+        }
+      }
+    }
+    button:nth-child(2) {
+      font-weight: 700;
+      background: #fe5f1e;
+      color: #fff;
+      border: 1px solid #fe5f1e;
+      transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+      &:hover {
+        background-color: #fff;
+        color: #fe5f1e;
+      }
+    }
+  }
+}

@@ -1,0 +1,11 @@
+export { default as Header } from './Header/Header';
+export { default as Categories } from './Categories/Categories';
+export { default as Pizzas } from './Pizzas/Pizzas';
+export { default as BasketComp } from './BasketComp/BasketComp';
+export { default as Loading } from './Loading/Loading';
+export { default as EmptyBasket } from './EmptyBasket/EmptyBasket';
+export { default as ContentLoader } from './ContentLoader/ContentLoader';
+export { default as NotFound } from './NotFound/NotFound';
+export { default as ModalComp } from './ModalComp/ModalComp';
+export { default as Pagination } from './Pagination/Pagination';
+export { default as Search } from './Search/Search';
