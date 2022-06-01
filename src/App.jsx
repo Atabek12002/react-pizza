@@ -10,8 +10,8 @@ const App = () => {
       <Header />
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="basket" element={<Basket />} />
-        <Route path="/react-pizza/*" element={<NotFound />} />
+        <Route path="/basket" element={<Basket />} />
+        <Route path="*" element={<NotFound />} />
       </Routes>
     </div>
   );
