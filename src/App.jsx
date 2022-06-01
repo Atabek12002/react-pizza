@@ -9,9 +9,9 @@ const App = () => {
     <div className="wrapper p-40">
       <Header />
       <Routes>
-        <Route path="" element={<Home />} />
+        <Route path="/" element={<Home />} />
         <Route path="basket" element={<Basket />} />
-        <Route path="*" element={<NotFound />} />
+        <Route path="/react-pizza/*" element={<NotFound />} />
       </Routes>
     </div>
   );
